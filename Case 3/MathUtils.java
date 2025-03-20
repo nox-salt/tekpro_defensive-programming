@@ -10,7 +10,7 @@ public class MathUtils{
     //-------------------------------------------------------------
     public static int factorial(int n){
         if (n < 0) {
-            throw new IllegalArgumentException("Cannot do Factorial with negative numnbers!");
+            throw new IllegalArgumentException("Cannot do Factorial with negative numbers!");
         } else if (n > 16){
             throw new IllegalArgumentException("Factorials is defined within the range from 0 to 16!");
         }
